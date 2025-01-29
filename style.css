@@ -316,6 +316,7 @@ section {
 
 /* EXPERIENCE SECTION */
 
+
 #experience {
   position: relative;
 }
@@ -410,6 +411,20 @@ article .icon {
 #internship .view-more-btn:hover {
   background-color: #333;
   color: #fff;
+}
+
+#internship .link{
+  display: block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border:1px solid #333;
+  color: rgb(62, 62, 218);
+  font-weight: bold;
+  cursor: pointer;
+}
+#internship .link:hover{
+  background-color: rgb(220, 48, 48);
+  color: #f9f9f9;
 }
 
 #internship .details-container.open .full-details {
